@@ -45,5 +45,14 @@
             </plugin>
         </plugins>
     </build>
+         
+    <profiles>
+    <profile>
+        <id>conf</id>
+        <build>
+            <directory>${dir}</directory>
+        </build>
+    </profile>
+</profiles>
 
 </project>
